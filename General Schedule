@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Notion Schedule</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .schedule-container {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-gap: 10px;
+    }
+    .day {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    .task-list {
+      margin-top: 20px;
+    }
+    .task {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>My Notion Schedule</h1>
+
+<div class="schedule-container">
+  <div class="day">Monday</div>
+  <div class="day">Tuesday</div>
+  <div class="day">Wednesday</div>
+  <div class="day">Thursday</div>
+  <div class="day">Friday</div>
+  <div class="day">Saturday</div>
+  <div class="day">Sunday</div>
+</div>
+
+<div class="task-list">
+  <h2>Tasks for the Week</h2>
+  <ul>
+    <li class="task">Task 1</li>
+    <li class="task">Task 2</li>
+    <li class="task">Task 3</li>
+    <!-- Add more tasks as needed -->
+  </ul>
+</div>
+
+</body>
+</html>
